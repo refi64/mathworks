@@ -9,7 +9,7 @@ Version history:
 
 1.1: Added use of math.py's math.pi to get pi if available. Added area function. Date: 4/20/13
 
-1.1.1: Fixed Syntax Error in shapes.py. I put an else instead of except. :)
+1.1.1: Fixed Syntax Error in shapes.py. I put an else instead of except. :) DateL 4/20/13
 
 Coming soon:
 
