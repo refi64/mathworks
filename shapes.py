@@ -60,18 +60,25 @@ class rectangle:
         return self._area
 class circle:
     def __init__(self):
+        try:
+            import math
+            self._pi = math.pi
+        else:
+            self._pi = 3.14159265
         self._radius = 0
         self._diameter = 0
         self._circumference = 0
-        self._pi = 3.14159265
+        self._area = 0
     def setRadius(self, radius):
         self._radius = float(radius)
         self._diameter = float(self._radius * 2)
         self._circumference = 0
+        self._area = 0
     def setDiameter(self, diameter):
         self._diameter = float(diameter)
         self._radius = float(self._diameter / 2)
         self._circumference = 0
+        self._area = 0
     def getRadius(self):
         return self._radius
     def getDiameter(self):
@@ -82,6 +89,9 @@ class circle:
         if self._circumference == 0:
             self._circumference = float(self._diameter * self._pi)
         return self._circumference
+    def getArea(self):
+        if self._area == 0:
+            self._area = float(self._pi * (self._radius * self._radius))
 class triangle:
     # The triangle is by far the most complex shape here.
     def __init__(self):
