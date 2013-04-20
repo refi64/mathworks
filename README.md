@@ -9,10 +9,12 @@ Version history:
 
 1.1: Added use of math.py's math.pi to get pi if available. Added area function. Date: 4/20/13
 
+1.1.1: Fixed Syntax Error in shapes.py. I put an else instead of except. :)
+
 Coming soon:
 
 -3D figures in a new file called 3d_shapes.py
 
 -Addition of the Pythagorean Theorem in ptheorem.py
 
--Probably more stuff, just can't think  of things right now
+-Probably more stuff, just can't think of things right now

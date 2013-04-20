@@ -63,7 +63,7 @@ class circle:
         try:
             import math
             self._pi = math.pi
-        else:
+        except:
             self._pi = 3.14159265
         self._radius = 0
         self._diameter = 0
