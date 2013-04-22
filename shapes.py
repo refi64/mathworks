@@ -95,8 +95,8 @@ class circle:
 class triangle:
     # The triangle is by far the most complex shape here.
     def __init__(self):
-        self._side = [0, 0, 0, 0]
-        self._angle = [0, 0, 0, 0]
+        self._side = [0, 0, 0]
+        self._angle = [0, 0, 0]
         self._perimeter = 0
         self._area = 0
     def setSide(self, side, length):
@@ -108,9 +108,9 @@ class triangle:
             self._perimeter = self._side[1] + self._side[2] + self._side[3]
         return self._perimeter
     def setAngle(self, angle, measure):
-        self._angle[angle] = float(measure)
+        self._angle[angle - 1] = float(measure)
     def getAngle(self, angle):
-        if self._angle[angle] == 0:
+        if self._angle[angle - 1] == 0:
             if angle == 1:
                 angle1 = self._angle[2]
                 angle2 = self._angle[3]
@@ -122,5 +122,5 @@ class triangle:
                 angle2 = self._angle[2]
             anglet = angle1 + angle2
             angler = float(180) - anglet
-            self._angle[angle] = angler
+            self._angle[angle - 1] = angler
         return self._angle[angle]

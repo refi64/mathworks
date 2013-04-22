@@ -7,8 +7,8 @@ send a letter to Creative Commons,
 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
 """
 # Import our modules...
-import exponent, shapes, multiples
+import exponent, shapes, multiples, ptheorem
 # Set the version...
 __version__ = "1.1.1"
 # And some more variables
-_all_ = ["exponent", "shapes", "multiples"]
+__all__ = ["exponent", "shapes", "multiples", "ptheorem"]

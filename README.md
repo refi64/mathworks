@@ -1,7 +1,7 @@
 mathworks
 =========
 
-A simple Python math library. There is no documentation yet, but there will be soon.
+A simple Python math library. There is no documentation yet, but there will be soon. Zip at https://code.google.com/p/mathworks/.
 
 Version history:
 
@@ -10,6 +10,8 @@ Version history:
 1.1: Added use of math.py's math.pi to get pi if available. Added area function. Date: 4/20/13
 
 1.1.1: Fixed Syntax Error in shapes.py. I put an else instead of except. :) Date: 4/20/13
+
+1.2: Added ptheorem.py. No examples yet. Also, changed backround code in shapes.py. Date: 4/21/13
 
 Coming soon:
 
