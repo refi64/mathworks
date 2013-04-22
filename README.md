@@ -13,10 +13,14 @@ Version history:
 
 1.2: Added ptheorem.py. No examples yet. Also, changed backround code in shapes.py. Date: 4/21/13
 
+1.3: Changed license to Boost Software License. Added area of a triangle. Added ability to get leg value in ptheorem.py. Date: 4/22/13
+
 Coming soon:
 
 -3D figures in a new file called 3d_shapes.py
 
--Addition of the Pythagorean Theorem in ptheorem.py
+-Addition of the Pythagorean Theorem in ptheorem.py(ALMOST COMPLETE)
+
+-Add factoring
 
 -Probably more stuff, just can't think of things right now
