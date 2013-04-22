@@ -9,6 +9,6 @@ send a letter to Creative Commons,
 # Import our modules...
 import exponent, shapes, multiples, ptheorem
 # Set the version...
-__version__ = "1.1.1"
+__version__ = "1.2"
 # And some more variables
 __all__ = ["exponent", "shapes", "multiples", "ptheorem"]
