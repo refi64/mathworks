@@ -19,4 +19,6 @@ Coming soon:
 
 -Addition of the Pythagorean Theorem in ptheorem.py
 
+-Add cube root to exponent.py
+
 -Probably more stuff, just can't think of things right now
