@@ -33,12 +33,21 @@ calc raises the first argument to the power of the second
 argument.
 square and cube are easier; just hand it the number to square/cube.
 """
+try:
+    import math
+    mathno = False
+except ImportError:
+    mathno = True
 def square(base):
     result = base * base
     return result
 def cube(base):
     result = base * base * base
     return result
+def cuberoot(base):
+    if mathno:
+        raise ValueError('Cube root requires math module')
+    result = math.pow(base, float(1) / 3)
 def calc(base, power):
     newbase = base
     i = 1

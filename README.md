@@ -15,6 +15,8 @@ Version history:
 
 1.3: Changed license to Boost Software License. Added area of a triangle. Added ability to get leg value in ptheorem.py. Date: 4/22/13
 
+1.3.1: Added cuberoot function to exponent.py. Date: 5/27/13
+
 Coming soon:
 
 -3D figures in a new file called 3d_shapes.py
@@ -22,5 +24,7 @@ Coming soon:
 -Addition of the Pythagorean Theorem in ptheorem.py(ALMOST COMPLETE)
 
 -Add factoring
+
+-Add cube root to exponent.py
 
 -Probably more stuff, just can't think of things right now

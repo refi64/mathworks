@@ -26,6 +26,6 @@ DEALINGS IN THE SOFTWARE.
 # Import our modules...
 import exponent, shapes, multiples, ptheorem
 # Set the version...
-__version__ = "1.3"
+__version__ = "1.3.1"
 # And some more variables
 __all__ = ["exponent", "shapes", "multiples", "ptheorem"]
