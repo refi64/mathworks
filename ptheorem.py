@@ -35,9 +35,9 @@ class theorem():
     def getLeg(self, number):
         if self._leg[number - 1] == 0:
             if number == 1:
-                self._leg[1] = float(math.sqrt(square(self._hypotenuse) - square(self._leg[2])))
+                self._leg[0] = float(math.sqrt(square(self._hypotenuse) - square(self._legs[1])))
             if number == 2:
-                self._leg[2] = float(math.sqrt(square(self._hypotenuse) - square(self._leg[1])))
+                self._leg[1] = float(math.sqrt(square(self._hypotenuse) - square(self._legs[0])))
             num = number - 1
         return self._legs[num]
     def setHypotenuse(self, new):

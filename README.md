@@ -17,6 +17,12 @@ Version history:
 
 1.3.1: Added cuberoot function to exponent.py. Date: 5/27/13
 
+1.3.2: Fixed some bugs. Date: 6/6/13
+
+Note: I am working on Ruby and C++ versions of Mathworks. And, as you can guess, the C++ version has been less than easy.
+I will be tied up on the two for a while. I am going to call the C++ one Mathworks++, but I am clueless what to name the
+Ruby one.
+
 Coming soon:
 
 -3D figures in a new file called 3d_shapes.py
@@ -24,7 +30,5 @@ Coming soon:
 -Addition of the Pythagorean Theorem in ptheorem.py(ALMOST COMPLETE)
 
 -Add factoring
-
--Add cube root to exponent.py
 
 -Probably more stuff, just can't think of things right now

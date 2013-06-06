@@ -132,7 +132,7 @@ class triangle:
         return self._side[side]
     def getPerimeter(self):
         if self._perimeter == 0:
-            self._perimeter = self._side[1] + self._side[2] + self._side[3]
+            self._perimeter = self._side[0] + self._side[1] + self._side[2]
     def getArea(self):
         if self._area == 0:
             self._area = float(self._height * self._base) / 2
@@ -142,15 +142,15 @@ class triangle:
     def getAngle(self, angle):
         if self._angle[angle - 1] == 0:
             if angle == 1:
-                angle1 = self._angle[2]
-                angle2 = self._angle[3]
-            elif angle == 2:
-                angle1 = self._angle[1]
-                angle2 = self._angle[3]
-            elif angle == 3:
                 angle1 = self._angle[1]
                 angle2 = self._angle[2]
+            elif angle == 2:
+                angle1 = self._angle[0]
+                angle2 = self._angle[2]
+            elif angle == 3:
+                angle1 = self._angle[0]
+                angle2 = self._angle[1]
             anglet = angle1 + angle2
             angler = float(180) - anglet
             self._angle[angle - 1] = angler
-        return self._angle[angle]
+        return self._angle[angle - 1]
