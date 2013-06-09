@@ -1,7 +1,7 @@
 mathworks
 =========
 
-A simple Python math library. There is no documentation yet, but there will be soon. Zip at https://code.google.com/p/mathworks/.
+A simple Python math library. Downloads at https://sourceforge.net/projects/mathworks/. I am working on documentation, see http://mathworks.sourceforge.net/index.html.
 
 Version history:
 
