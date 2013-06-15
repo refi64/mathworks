@@ -5,7 +5,7 @@ A simple Python math library. Downloads at https://sourceforge.net/projects/math
 
 Version history:
 
-1.0: Wrote it in __init__.py as 0.1.0, but then I realized that it was stable enough. Anyway, this is the first version. Date: 4/19/2013
+1.0: Wrote it in \__init__.py as 0.1.0, but then I realized that it was stable enough. Anyway, this is the first version. Date: 4/19/2013
 
 1.1: Added use of math.py's math.pi to get pi if available. Added area function. Date: 4/20/13
 
@@ -22,6 +22,8 @@ Version history:
 Note: I am working on Ruby and C++ versions of Mathworks. And, as you can guess, the C++ version has been less than easy.
 I will be tied up on the two for a while. I am going to call the C++ one Mathworks++, but I am clueless what to name the
 Ruby one.
+
+Documentation(still in progress!): http://mathworks.sourceforge.net/index.html
 
 Coming soon:
 
