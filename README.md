@@ -9,7 +9,7 @@ Version history:
 
 1.1: Added use of math.py's math.pi to get pi if available. Added area function. Date: 4/20/13
 
-1.1.1: Fixed Syntax Error in shapes.py. I put an else instead of except. :) Date: 4/20/13
+1.1.1. Fixed Syntax Error in shapes.py. I put an else instead of except. :) Date: 4/20/13
 
 1.2: Added ptheorem.py. No examples yet. Also, changed backround code in shapes.py. Date: 4/21/13
 
@@ -19,18 +19,14 @@ Version history:
 
 1.3.2: Fixed some bugs. Date: 6/6/13
 
-Note: I am working on Ruby and C++ versions of Mathworks. And, as you can guess, the C++ version has been less than easy.
-I will be tied up on the two for a while. I am going to call the C++ one Mathworks++, but I am clueless what to name the
-Ruby one.
+1.4.0: Major fixer-upper. Added setup script, unit tests, and cleaned up a bunch of stuff. Date: 11/19/13
+
+Note: The C++ version HAS BEEN DISCONTINUED!!! The Ruby version has been backed up for a while...
 
 Documentation(still in progress!): http://mathworks.sourceforge.net/index.html
 
 Coming soon:
 
--3D figures in a new file called 3d_shapes.py
+- 3D figures in a new file called 3d_shapes.py
 
--Addition of the Pythagorean Theorem in ptheorem.py(ALMOST COMPLETE)
-
--Add factoring
-
--Probably more stuff, just can't think of things right now
+- Add factoring
