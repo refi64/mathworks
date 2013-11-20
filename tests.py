@@ -2,7 +2,7 @@
 from mathworks import shapes, exponent, multiples, ptheorem
 import unittest, math
 
-class TestShapesModule(unittest.TestCase):
+class TestModules(unittest.TestCase):
     def test_square(self):
         sq = shapes.square()
         sq.setLength(5)
