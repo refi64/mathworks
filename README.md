@@ -1,6 +1,8 @@
 mathworks
 =========
 
+[![Build Status](https://travis-ci.org/kirbyfan64/mathworks.png)](https://travis-ci.org/kirbyfan64/mathworks)
+
 A simple Python math library. Downloads at https://sourceforge.net/projects/mathworks/. I am working on documentation, see http://mathworks.sourceforge.net/index.html.
 
 Version history:
